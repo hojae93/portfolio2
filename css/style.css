@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #fff;
+    background: #fff;
+    width: 100%
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /*====전체레이아웃=====*/
+  #container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  header {
+    width: 100%;
+    height: 80px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 310px;
+    align-items: center;
+  }
+  
+  section {
+    width: 100%;
+    height: 968px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  footer {
+    width: 100%;
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /*====헤더=====*/
+  .logo img {
+    height: 45px;
+    margin-top: 5px;
+  }
+  
+  .menu a {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 30px 20px;
+  
+  }
+  
+  .menu a:nth-child(3) {
+    margin-right: 15px;
+  }
+  
+  .menu-margin {
+    margin-left: 15px;
+  }
+  
+  .menu a:hover {
+    color: #1ed760;
+  }
+  
+  /*====메인=====*/
+  .main {
+    color: #1ed760;
+    font-size: 146px;
+    position: relative;
+    font-weight: 900;
+    line-height: 183px;
+    left: 225px;
+  }
+  
+  .main-first {
+    position: relative;
+    left: -316px;
+  }
+  
+  .submain {
+    font-size: 20px;
+    text-align: center;
+    color: #1ed760;
+    margin-top: 30px;
+  }
+  
+  .main-button {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .main-button button {
+    padding: 15px 32px;
+    text-align: center;
+    background-color: #1ed760;
+    border-radius: 300px;
+    font-size: 17px;
+    color: #2941ab;
+    font-weight: 700;
+  }
+  
+  .main-button button:hover {
+    transform: scale(1.07);
+    background-color: #2de26d;
+  }
+  
+  /*====푸터=====*/
+  .foot-container {
+    max-width: 1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  
+  .foot1 {
+    height: 346px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .foot1-fristbox {
+    width: 60%;
+  }
+  
+  .foot1-fristbox>ul {
+    display: flex;
+    gap: 55px;
+  }
+  
+  .foot-fristbox-menu1>a {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #919496;
+    font-weight: 900;
+  }
+  
+  .foot-fristbox-menu2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  
+  }
+  
+  .foot-fristbox-menu2 li:hover {
+    color: #1ed760;
+  }
+  
+  
+  .foot1-fristbox img {
+    width: 132px;
+  }
+  
+  .foot1-secondbox {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .foot1-secondbox i {
+    width: 54px;
+    height: 54px;
+    font-size: 24px;
+    margin-right: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 54px;
+  }
+  
+  .foot1-secondbox .icon:hover {
+    color: #1ed760;
+  }
+  
+  .foot2 {
+    display: flex;
+    justify-content: flex-end;
+    color: #919496;
+    font-size: 12px;
+  }
+  
+  .foot3 {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .foot3 div {
+    color: #919496
+  }
+  
+  .foot3-a ul {
+    display: flex;
+    gap: 24px;
+  
+  }
+  
+  .foot3-a li:hover {
+    color: #1ed760;
+  }
